@@ -11,3 +11,8 @@ alias log='tail -f log/development.log'
 alias logt='tail -f log/testing.log'
 alias logs='tail -f log/staging.log'
 alias logp='tail -f log/production.log'
+
+
+
+
+this is test
