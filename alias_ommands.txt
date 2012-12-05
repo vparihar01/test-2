@@ -1,0 +1,13 @@
+alias gpl='git pull'
+alias gpu='git push'
+alias gd='git diff'
+alias gc='git commit -m'
+alias gca='git commit -a'
+alias gck='git checkout'
+alias gbr='git branch'
+alias gst='git status'
+alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
+alias log='tail -f log/development.log'
+alias logt='tail -f log/testing.log'
+alias logs='tail -f log/staging.log'
+alias logp='tail -f log/production.log'
